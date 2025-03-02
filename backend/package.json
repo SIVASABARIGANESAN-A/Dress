@@ -10,7 +10,7 @@
   "preview": "vite preview",
   "backend": "node backend/index.js",
   "dev:backend": "nodemon backend/index.js",
-  "start": "concurrently \"vite\" \"node backend/index.js\""
+  "start": "node index.js""
 },
   "dependencies": {
     "lucide-react": "^0.344.0",
